@@ -1,0 +1,11 @@
+:root {
+	--light-gray: #ECECEC;
+	--indigo: #4F58AF;
+	--yellow: #E39D4B;
+	--profile-max-width: 1000px;
+	--dark-yellow: #C0843F;
+}
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
