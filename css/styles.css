@@ -9,3 +9,19 @@
 * {
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+#download-resume-link {
+	background-color: var(--yellow);
+}
+#download-resume-link:hover {
+	background-color: var(--dark-yellow);
+}
+
+.pill-skill {
+	background-color: var(--light-gray);
+
+	&:hover{
+		background-color: #dadada;
+	}
+}
+
