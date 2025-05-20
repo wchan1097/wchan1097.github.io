@@ -41,8 +41,9 @@
 					<h3 class="md:text-xl font-bold mb-2 text-center md:text-start">Hello!</h3>
 					<h2 class="text-2xl md:text-6xl font-bold mb-2 text-center md:text-start" style="color: var(--indigo)">I'm a Software Developer.</h2>
 					<h3 class="md:text-lg mb-4 text-center md:text-start">
-						Located in <strong>Springfield, Missouri</strong>, I leverage my three years of software development experience to create and craft exceptional user-centered
-						software applications using cutting-edge web and mobile techologies.
+						Located in <strong>Springfield, Missouri</strong>, I leverage my <span id="yearsOfExperience"></span> years of software development 
+						experience to create and craft exceptional user-centered software applications using cutting-edge web and mobile techologies.
+						Proficiency in React, JavaScript, CSS, Cold Fusion and SQL.
 					</h3>
 					<div class="flex justify-center md:justify-start w-full">
 						<a href="../assets/documents/William Chan's Resume.pdf" id="download-resume-link" class="transition-all duration-100 px-4 py-2 rounded-lg text-white inline-flex gap-2 items-center" download>
@@ -214,6 +215,13 @@
 		githubLogo.addEventListener("mouseout", function(){
 			githubLogo.src = "../assets/images/github-logo.png";
 		})
+
+		const careerDateStarted = new Date("07-01-2021");
+		const today = new Date();
+
+		const careerAge = Math.floor((today - careerDateStarted) / (1000 * 60 * 60 * 24 * 365)); 
+
+		document.getElementById("yearsOfExperience").textContent = `+${careerAge}`;
 	</script>
 </body>
 </html>
