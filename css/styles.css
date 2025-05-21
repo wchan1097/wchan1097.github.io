@@ -19,9 +19,13 @@
 
 .pill-skill {
 	background-color: var(--light-gray);
+	transition: .2s;
 
 	&:hover{
 		background-color: #dadada;
 	}
 }
 
+.section-img {
+	transition: .2s;
+}
