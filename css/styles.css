@@ -12,9 +12,11 @@
 
 #download-resume-link {
 	background-color: var(--yellow);
-}
-#download-resume-link:hover {
-	background-color: var(--dark-yellow);
+	transition: .2s;
+
+	&:hover {
+		background-color: var(--dark-yellow);
+	}
 }
 
 .pill-skill {
