@@ -744,12 +744,12 @@ video {
   margin-top: 0.5rem;
 }
 
-.ms-3 {
-  margin-inline-start: 0.75rem;
+.ms-2 {
+  margin-inline-start: 0.5rem;
 }
 
-.ms-4 {
-  margin-inline-start: 1rem;
+.ms-1 {
+  margin-inline-start: 0.25rem;
 }
 
 .box-border {
@@ -2053,6 +2053,10 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.ps-4 {
+  padding-inline-start: 1rem;
+}
+
 .pt-14 {
   padding-top: 3.5rem;
 }
@@ -2678,6 +2682,22 @@ video {
 
   .md\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .md\:ms-4 {
+    margin-inline-start: 1rem;
+  }
+
+  .md\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .md\:ms-5 {
+    margin-inline-start: 1.25rem;
+  }
+
+  .md\:ms-6 {
+    margin-inline-start: 1.5rem;
   }
 
   .md\:flex {
